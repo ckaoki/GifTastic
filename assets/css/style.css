@@ -1,4 +1,20 @@
+.jumbotron {
+    max-height: 250px;
+    padding: 20px;
+}
+
+
+
 #newAnimal p{
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+#newAnimal{
+    margin-bottom: 10px;
+}
+
+.animalImage{
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
