@@ -11,9 +11,9 @@
     <script type="text/javascript" src="assets/javascript/gifTastic.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    
-    <div class="container border">
+
+<body>    
+    <div class="container border border-primary rounded-lg">
         <!-- header -->
         <div class="row">
             <div class="col-12">
@@ -22,28 +22,24 @@
                 </div>
             </div>
         </div>
-        <!-- buttons -->
-        <div class="row border-bottom">
+        <!-- buttons of animal names-->
+        <div class="row border-bottom border-primary">
             <div class="col-12" id="buttonsDiv"></div>            
         </div>
         <!-- add new animal -->
-        <div class="row border-bottom">
+        <div class="row border-bottom border-primary">
             <div class="col-12" id="newAnimal"> 
-                <p>Add an animal</p>  
-                <input type="text" name="" id="newAnimalName"> 
-                <button type="submit" class="btn btn-primary" id="submit">submit</button>    
+                <form id="movie-form">
+                    <label for="newAnimalInputt">Add an Animal</label>
+                    <input type="text" id="newAnimalInput">              
+                    <!-- Button triggers new animal to be added -->
+                    <input id="addAnimalButton" type="submit" value="Add an Animal">
+                </form>
             </div>   
         </div>
         <!-- gifs -->
         <div class="row" id="gifsDiv">
-            <!-- <div class="col-12" id="gifsDiv"> -->
-         
-            <!-- </div> -->
-            
-        </div>
-        
-        
+        </div>       
     </div>
-
 </body>
 </html>
