@@ -1,9 +1,17 @@
 .jumbotron {
     max-height: 250px;
     padding: 20px;
+    margin-bottom: 0;
 }
 
+#buttonsDiv{
+    margin-top: 20px;
+}
 
+#submit{
+    margin-left: 20px;    
+    margin-bottom: 10px;
+}
 
 #newAnimal p{
     margin-top: 20px;
@@ -11,10 +19,19 @@
 }
 
 #newAnimal{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .animalImage{
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.rating{
+    margin-top: 5px;
+}
+
+#gifsDiv{
+    padding-left: 20px;
+    padding-right: 20px;
 }
